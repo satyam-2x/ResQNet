@@ -8,7 +8,8 @@ const app = express();
 
 app.use(cors({
     origin: [
-        "http://localhost:5173"
+        "http://localhost:5173",
+        "https://main.dxseivhko5r62.amplifyapp.com/"
     ],
     credentials: true
 }));
